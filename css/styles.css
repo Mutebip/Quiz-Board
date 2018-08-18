@@ -10,6 +10,10 @@ h1{
   text-decoration: underline;
 }
 
+p{
+  color: purple;
+}
+
 #quiz {
   margin-left: 10px;
   background: #d2def2;
