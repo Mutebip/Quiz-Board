@@ -5,7 +5,7 @@ background-image: url('../img/q1.jpg');
 }
 
 h1{
-  color: #8db600;
+  color: #e8f442;
   text-align:center;
   text-decoration: underline;
 }
@@ -18,7 +18,7 @@ p{
 
 #quiz {
   margin-left: 10px;
-  background: #d2def2;
+  background: #42f489;
   padding: 10px 20px 10px 20px;
   widith: 400px;
   border-radius: 20px;
