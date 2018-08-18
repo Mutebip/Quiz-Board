@@ -1,8 +1,49 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>Quiz-Board</title>
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
 </head>
-<body>
+
+<body class="container">
+  <h1>Brain Teaser!</h1>
+  <form id="quiz" name="quiz">
+
+    <p>1.What is the other name for Javascript?</p>
+    <input type="radio" id="mc" name="question1" value="ECMAscript">ECMAscript<br>
+    <input type="radio" id="mc" name="question1" value="JS">JS<br>
+    <input type="radio" id="mc" name="question1" value="I don't know">I don't know<br>
+
+    <p>2.A programmer is to a computer as a teacher is to:</p>
+    <input type="radio" id="mc" name="question2" value="A desk">A desk<br>
+    <input type="radio" id="mc" name="question2" value="A student">A student<br>
+    <input type="radio" id="mc" name="question2" value="A library">A library<br>
+
+    <p>3.Imagine a car as a computer, and its engine as a program.
+       Which of the following is an input for the engine program?</p>
+       <input type="radio" id="mc" name="question3" value="The gas pedal">The gas pedal<br>
+       <input type="radio" id="mc" name="question3" value="The driver's seat">The driver's seat<br>
+       <input type="radio" id="mc" name="question3" value="The steering wheel">The steering wheel<br>
+
+       <p>4.A good algorithm must be:</p>
+       <input type="radio" id="mc" name="question4" value="Detailed">Detailed<br>
+       <input type="radio" id="mc" name="question4" value="Replaceable">Replaceable<br>
+       <input type="radio" id="mc" name="question4" value="Simple">Simple<br>
+
+
+       <input id="button" type="button" value="Submit" onclick="check()">
+  </form>
+
+  <div id="after_submit">
+
+    <p id="message"></p>
+    <p id="number_correct">Welldone!</p>
+    <img id = "picture">
+  </div>
+    <script src="js/scripts.js"></script>
+
 </body>
 </htl>
