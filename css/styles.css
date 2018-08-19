@@ -16,6 +16,7 @@ p{
 
 
 #quiz {
+  visibility: visible;
   margin-left: 10px;
   background: #42f489;
   padding: 10px 20px 10px 20px;

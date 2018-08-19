@@ -38,7 +38,7 @@ function check() {
     range = 0;
   }
 
-
+  document.getElementById("quiz").style.visibility = "hidden"
   document.getElementById("after_submit").style.visibility = "visible";
 
   document.getElementById("message").innerHTML = messages[range];
